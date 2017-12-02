@@ -3,12 +3,13 @@ $:.unshift lib unless $:.include?(lib)
 require 'chefspec/version'
 
 Gem::Specification.new do |s|
-  s.name          = 'chefspec'
+  s.name          = 'chefspec-inspec'
   s.version       = ChefSpec::VERSION
   s.authors       = ['Andrew Crump', 'Seth Vargo']
   s.email         = ['andrew.crump@ieee.org', 'sethvargo@gmail.com']
   s.summary       = 'Write RSpec examples and generate coverage reports for ' \
-                    'Chef recipes!'
+                    'Chef recipes!' \
+                    '*********** Modified for Inspec-Gen use. DO NOT USE THIS GEM!!!! **************'
   s.description   = 'ChefSpec is a unit testing and resource coverage ' \
                     '(code coverage) framework for testing Chef cookbooks ' \
                     'ChefSpec makes it easy to write examples and get fast ' \

@@ -1,5 +1,12 @@
 # ChefSpec
 
+# DO NOT USE THIS GEM!!!!
+# This is a modified version of chefspec it disables the `raise` that fails the run when commands are not stubbed.
+# It is for internal use of the Inspec-Gen gem.
+# Modified by: Alon Antoshvinski
+# You have been warned!!!
+
+
 [![Gem Version](https://badge.fury.io/rb/chefspec.svg)](https://badge.fury.io/rb/chefspec) [![Build Status](https://travis-ci.org/sethvargo/chefspec.svg?branch=master)](https://travis-ci.org/sethvargo/chefspec)
 
 ChefSpec is a unit testing framework for testing Chef cookbooks. ChefSpec makes it easy to write examples and get fast feedback on cookbook changes without the need for virtual machines or cloud servers.

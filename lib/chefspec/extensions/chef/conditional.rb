@@ -6,9 +6,9 @@ class Chef::Resource::Conditional
     stub = ChefSpec::Stubs::CommandRegistry.stub_for(@command)
 
     if stub.nil?
-      raise ChefSpec::Error::CommandNotStubbed.new(args: [@command])
-    end
-
-    stub.result
+      warn ChefSpec::Error::CommandNotStubbed.new(args: [@command])
+    else
+     stub.result
+   end
   end
 end
