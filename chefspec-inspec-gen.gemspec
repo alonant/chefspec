@@ -3,7 +3,7 @@ $:.unshift lib unless $:.include?(lib)
 require 'chefspec/version'
 
 Gem::Specification.new do |s|
-  s.name          = 'chefspec-inspec'
+  s.name          = 'chefspec-inspec-gen'
   s.version       = ChefSpec::VERSION
   s.authors       = ['Andrew Crump', 'Seth Vargo']
   s.email         = ['andrew.crump@ieee.org', 'sethvargo@gmail.com']
